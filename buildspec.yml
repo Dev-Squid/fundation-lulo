@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Changing directory to lulo-website
+      - cd lulo-website
+      - echo Installing dependencies
+      - npm install
+  build:
+    commands:
+      - echo Building the React app
+      - npm run build
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Copying appspec.yml and scripts to the build directory...
+      - cp ../appspec.yml build/
+      - cp -r ../scripts build/
+      - echo Zipping the build directory...
+      - cd build && zip -r ../../my-app.zip .
+
+artifacts:
+    files:
+    - my-app.zip

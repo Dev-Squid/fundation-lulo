@@ -1,0 +1,36 @@
+.welcome {
+    background-image: url('../images/welcome.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: -22px;
+    height: 500px;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.welcome-text {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button-link {
+    display: inline-block;
+    background-color: orange;
+    border: 2px solid cadetblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border: 4px solid cadetblue;
+    border-radius: 25px;
+}
+
+.button-link:hover {
+    background-color: darkorange;
+}

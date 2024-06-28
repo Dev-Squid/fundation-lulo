@@ -1,0 +1,39 @@
+.header {
+    padding: 0px 100px 0px 100px;
+    box-shadow: 0 0px 10px 0px gray;
+    background-color:cadetblue
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.nav-items > li {
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid black
+}
+
+.logo-image {
+    margin-top: 20px;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+}

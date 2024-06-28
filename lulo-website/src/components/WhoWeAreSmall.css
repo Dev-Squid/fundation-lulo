@@ -1,0 +1,28 @@
+.who-we-are-small {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.who-we-are-small-text {
+    color: cadetblue;
+}
+
+.who-we-are-small-description {
+    color: grey;
+}
+
+.who-we-are-small-link {
+    display: inline-block;
+    background-color: orange;
+    border: 4px solid cadetblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border: 4px solid lightorange;
+}
+
+.who-we-are-small-link:hover {
+    background-color: darkorange;
+}
